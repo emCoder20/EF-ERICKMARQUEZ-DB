@@ -17,8 +17,8 @@ CREATE TABLE pizza(
 	descripcion VARCHAR(180) NOT NULL	
 );
 
-DROP TABLE IF EXISTS pizeeria CASCADE;
-CREATE TABLE pizeeria(
+DROP TABLE IF EXISTS pizzeria CASCADE;
+CREATE TABLE pizzeria(
 	idPizzeria INT auto_increment PRIMARY KEY,
 	direccion VARCHAR(255) NOT NULL,
 	sede VARCHAR(255) NOT NULL
